@@ -1,0 +1,377 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    width: 100%;
+height: 100%;
+  
+}
+
+.ludo-main{
+width: 100%;
+height: 100vh;
+background-image: url("https://www.transparenttextures.com/patterns/black-thread-light.png");
+background-color: #778beb;
+
+}
+.cnt{
+    box-shadow: 1px 1px 6px 10px #574b90;
+    align-items: center;
+    align-content: center;
+    margin: auto;
+    align-content: space-around; 
+}
+
+
+input{
+    border: none !important; 
+    background: none; 
+    text-align: center;
+}
+.winner{
+    font-family: 'Dancing Script', cursive;
+font-size:4rem;
+color:aqua;
+text-transform:capitalize;
+}
+
+.title{
+    font-family: cursive;
+    font-weight: bold;
+}
+
+.main{
+        background-color: #55efc4;
+    width: 100%;
+} 
+
+
+.nav-link{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color:red;
+    font-style: oblique;
+}
+
+
+    .home-card{
+        background: none;
+        background-color: none;
+    border: none;
+    padding: 16px;
+    } 
+
+.home-main{
+    background-color:lightcyan;
+
+
+}
+
+.sc2{
+    /* background-color: #48dbfb; */
+    border-top-left-radius: 100px;
+    border: 5px solid;
+    border-bottom-right-radius: 100px;
+    z-index: -2;
+    border-left-color: red;
+    border-right-color:blue;
+    border-bottom-color: aqua;
+    border-top-color:#e056fd;
+    border-style:double;
+    border-top-style:double;
+    border-bottom-style: double;
+   
+}
+
+.dice-img{
+    width: 100%;
+    background-color: #81ecec;
+    color: red;
+}
+.logo{
+     border-radius: 50%;
+ align-items: center;
+ align-content: center;
+background-color: aqua;
+align-items: flex-start;
+}
+div .logo  p{
+    transform: rotate(347deg);  
+    font-style: oblique;
+    text-decoration:underline #ffff;
+   
+}
+
+.logo-p:hover{
+    transform: rotateY(0deg);
+    transition: transform 2s;
+color: red;
+}
+
+.abc{
+    min-width: 200px;
+}
+
+.sumofdice-heading{
+    color:#ee5253;
+}
+
+.bgimg {
+background:url("./components/images/15457.jpg");   
+background-position: center center;
+/* background-attachment: fixed; */
+background-repeat: no-repeat;
+background-size: 100% 100%;
+height: 55vh;
+width: 100%;
+animation: updown 4s ease-in-out  ;
+/* animation: up-down 2s ease-in-out infinite alternate-reverse both ; */
+background-color: #81ecec;
+}
+@keyframes updown{
+    0% ,100%{
+        background:url("./components/images/15457.jpg"); 
+      
+    }
+    33% {
+      background:url("./components/images/1001.jpg");
+      
+    }
+    66% {
+        background:url("./components/images/100.jpg");
+    
+      }
+
+}
+
+.bgimg2 {
+    background:url("./components/images/100.jpg");   
+    background-position: center center;
+    /* background-attachment: fixed; */
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 50vh;
+    align-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: #81ecec;
+    }
+
+    .btn-start{
+        font-size:1rem;
+        letter-spacing: 2px;
+        padding: 10px 20px;
+        border-radius: 50px;
+        transition: 0.5s;
+        color:#3498db;
+        border: 2px solid #3498db;
+        text-decoration: none;
+        background: #1dd1a1;
+        color: #ffff;
+        font:oblique;
+        width:fit-content;
+        height: fit-content;
+        align-items: center;
+        align-content: center;
+        margin-left: 20px;
+        margin-top: 20px;
+        font-weight: bold;
+        font-style: oblique;
+        
+    }
+    .btn-start:hover{
+        background:#706fd3;
+        color:#ffff;
+        box-shadow: 2px 2px 3px 4px #54a0ff;
+    }
+
+
+
+    @media (max-width:700px){
+
+
+        .one{
+            width:100%;
+            padding:5px;
+        }
+        .two{
+            width:100%;
+            padding: 5px;
+        }
+        .winner{
+            font-family: 'Dancing Script', cursive;
+        font-size:1.8rem;
+        color:aqua;
+        text-transform:capitalize;
+        }
+        
+        }
+
+
+
+        .vit-card {
+            box-shadow: 5px 10px 5px 4px #c7ecee;
+        }
+
+
+    .carousel-control-prev, .carousel-control-next{
+            display: none;  
+        }
+       
+        .carousel{
+            height: 50vh;
+            width: 100%;
+            background-size: cover;
+            background: no-repeat scroll center scroll;
+
+        }
+
+        .carousel img{
+            height: 50vh;
+            width: 100vh;
+            background-size: cover;
+        }
+
+
+        .carousel-caption ,h2 {
+            color: #1dd1a1;
+            font-family: cursive;
+            font-weight: bold;
+        font-style: oblique;
+        }
+
+        .carousel-caption p{
+            color: red;;
+            background-color: #55efc4;
+            width:fit-content;
+            margin: auto;
+        }
+        .pl{
+            font-size: 2rem;
+        }
+
+
+        .flames-card{
+background-color: #1dd1a1;
+align-items: center;
+align-content: center;
+        }
+          .vit-card:hover {
+            transition: all 0.2s ease-out;
+            box-shadow: 0px 4px 8px rgba(123, 0, 0, 0.653);
+            top: -4px;
+            border: 2px solid #a55eea;
+            background-color:#7ed6df;
+          }
+
+
+
+
+          /* contact page */
+
+
+          .nav-link:hover{
+            font-weight: bold;
+        
+        }
+        
+        .centerdiv{
+            background-color: #54a0ff;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            bottom: 0;
+             overflow: hidden;
+              padding-bottom: 10px;
+        
+        }
+        
+        .centerdiv a{
+            width: 50px;
+            height: 50px;
+            background-color: #f5f6fa;
+            border-radius: 50%;
+            text-align: center;
+            margin: 15px;
+            line-height: 60px;
+            box-shadow: 1px 4px 2px 2px #dcdde1;
+        }
+        .centerdiv a i {
+            transition: all 0.3s linear;
+        }
+         .centerdiv a:hover {
+             transform: scale(1.2);
+         }
+        
+        .fa-instagram{
+            color: #e84393;
+        }
+        .fa-linkedin{
+            color: #0097e6;
+        }
+        .fa-twitter{
+            color:#0096e6;
+        }
+
+
+
+
+
+  .contact-page {
+      background-color: #1dd1a1;
+      align-items: center;
+      align-content: center;
+  }
+
+  .contact-page ,lable{
+      color: #ffff;
+      font-weight: bold;
+  }
+  .contact {
+      align-items: center;
+      align-content: center;
+    color: blue;
+    padding: auto;
+  }
+  .btn-contact{
+    font-size:1.3rem;
+    letter-spacing: 2px;
+    padding: 10px 20px;
+    border-radius: 50px;
+    transition: 0.5s;
+    color:#3498db;
+    border: 2px solid #3498db;
+    text-decoration: none;
+    background:#706fd3;
+        color: #ffff;
+    font:oblique;
+    width:fit-content;
+    height: fit-content;
+    align-items: center;
+    align-content: center;
+    margin-left: 20px;
+    margin-top: 20px;
+    font-weight: bold;
+    font-style: oblique;
+    
+}
+.btn-contact:hover{
+    background:#1dd1a1;
+    color:#ffff;
+    box-shadow: 2px 2px 3px 4px #54a0ff;
+}
+
+
+.age-home{
+    background-color: #55E6C1;
+    align-items: center;
+    align-content: center;
+}
+
+.show{
+    font-style: oblique;
+    color: #F97F51;
+}
